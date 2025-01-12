@@ -1,8 +1,8 @@
 const { EventHubConsumerClient, earliestEventPosition, latestEventPosition } = require('@azure/event-hubs'); 
  
 // Replace with your Event Hub connection string, Event Hub name, and consumer group name 
-const connectionString = "Endpoint=sb://malachitesteventhubs.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=B78OC6b/Q+vp610VdJOpcyl0hC/YcDwom+AEhAMDWZs="; 
-const eventHubName = "eventhub"; 
+const connectionString = ""; 
+const eventHubName = ""; 
 const consumerGroup = "$Default"; // Default consumer group 
  
 async function receiveMessages() { 
