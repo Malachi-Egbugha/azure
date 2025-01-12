@@ -1,6 +1,7 @@
 const { EventHubProducerClient } = require('@azure/event-hubs'); 
  
 // Replace with your Event Hub connection string and Event Hub name 
+/*
 const connectionString = ""; 
 const eventHubName = ""; 
  
@@ -27,5 +28,6 @@ async function sendMessage() {
  
 sendMessage().catch((err) => { 
   console.error("Error running the producer: ", err); 
-}); 
+});
+*/ 
  
